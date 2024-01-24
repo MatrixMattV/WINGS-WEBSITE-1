@@ -1,0 +1,78 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background: url("BuffaloWings_HeroV2-720x1080.jpg.webp");
+    background-position: center;
+    background-size: cover;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 28px 100px;
+    background: orange;
+}
+
+h2 {
+    user-select: none;
+    font-size: 26px;
+    font-weight: 700;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 20px;
+    padding: 8px 16px;
+    color: black;
+    transition: .3s;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    color: red;
+}
+
+.content {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.main-content {
+    max-width: 1200px;
+    color: red;
+}
+
+.main-content h1 {
+    font-size: 3rem;
+    max-width: 600px;
+}
+
+.main-content p {
+    margin-top: 20px;
+    max-width: 600px;
+    font-size: 20px;
+}
+
+.main-content button {
+    border: none;
+    outline: none;
+    font-size: 24px;
+    padding: 12px 28px;
+    margin-top: 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    background: orange;
+    font-weight: 600;
+}
+
